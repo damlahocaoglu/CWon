@@ -1,0 +1,113 @@
+   
+     /* Font */
+
+        *{
+            font-family: 'Playfair Display', serif;
+        }
+
+        /* Logo */
+
+        .logo {
+
+            font-size: 24px;
+
+        }
+        /* button addcart */
+        .addcart{
+            background-color: #000;
+            font-size: 14px;
+            color: #FFFFFF;
+            padding: 10px 50px;
+            margin-top:60px;
+        }
+   
+        .addcart:hover {
+            background-color: #fff ; 
+            color: #000;
+          }
+
+        /* custom navbar toggler */
+
+        .custom-toggler .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+          }
+          
+        .custom-toggler.navbar-toggler {
+            border-color: #000;
+          } 
+   
+
+        .best{
+            font-size: 20px;
+            color: #000;
+            font-weight: 800;
+        }
+        .design{
+            font-size: 48px;
+            color: #000;
+            font-weight: 400;
+            line-height: 72px;
+        }
+        .price{
+            font-size: 28px;
+            color: #000;
+            font-weight: 800;
+        }
+
+        span{
+            font-weight: 600;
+        }
+
+        .loreem{
+            font-size: 16px;
+            line-height: 26px;
+            color: #000;
+            font-weight: 400;
+            margin-top: 30px;
+        }
+
+        .icons{
+
+            padding: 0px 20px;
+        }
+
+        .line{
+
+            border: 5px solid #f5faf6;
+        
+        }
+        footer a:hover, footer a:focus {
+            text-decoration:none;
+            border-bottom:1px dotted #000;
+          }
+          
+          footer .form-control {
+              background-color: #fff;
+              box-shadow: 0 4px 0 0 rgba(27, 206, 11, 0.1);
+              border: none;
+              resize: none;
+              color: #d1d2d2;
+              padding: 0.7em 1em;
+          }
+
+          .btnSend{
+            width: 130px;
+            height: 48px;
+            color: #fff;
+            background: #000;
+            border-radius: 40px;
+            box-shadow: 0 4px 0 0 rgba(27, 206, 11, 0.1);
+            border-color: rgb(0, 0, 0);
+        }
+        .btnSend:hover {
+            color: #000;
+            background: #fff;
+            box-shadow: 0 4px 0 0 rgba(27, 206, 11, 0.1);
+        }
+
+        /* Section 1 */
+
+        .plantbgcolor{
+            background-color: #f5faf6;
+            
+        }
